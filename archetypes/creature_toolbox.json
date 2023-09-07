@@ -1,0 +1,14 @@
+{
+    "name": "CreatureToolbox",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Fauna Shaman", "Fiend Artisan", "Eternal Witness", "Green Sun's Zenith"]
+        },
+        {
+            "type": "two_or_more",
+            "cards": ["Sylvan Library", "Survival of the Fittest", "Birthing Pod", "Living Death"]
+        }
+    ]
+}

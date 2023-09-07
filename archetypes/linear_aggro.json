@@ -1,0 +1,10 @@
+{
+    "name": "LinearAggro",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "two_or_more",
+            "cards": ["Loyal Apprentice", "Selfless Spirit", "Isamaru, Hound of Konda", "Kytheon, Hero of Akros", "Thraben Inspector"]
+        }
+    ]
+}

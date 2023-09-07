@@ -1,0 +1,10 @@
+{
+    "name": "Enchantress",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Sythis, Harvest's Hand", "Argothian Enchantress", "Enchantress's Presence"]
+        }
+    ]
+}

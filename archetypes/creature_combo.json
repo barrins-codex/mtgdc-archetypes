@@ -1,0 +1,10 @@
+{
+    "name": "CreatureCombo",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "one_or_more",
+            "cards": ["Pattern of Rebirth", "Leveler"]
+        }
+    ]
+}

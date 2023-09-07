@@ -1,0 +1,14 @@
+{
+    "name": "Tempo",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "two_or_more",
+            "cards": ["Daze", "Spell Pierce", "Mental Misstep"]
+        },
+        {
+            "type": "never",
+            "cards": ["Lotus Petal", "Jace, Wielder of Mysteries", "Peacewalker Colossus", "Shallow Grave", "Corpse Dance", "Bring to Light", "Tenacious Underdog", "Otharri, Suns' Glory"]
+        }
+    ]
+}

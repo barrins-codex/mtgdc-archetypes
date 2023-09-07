@@ -1,0 +1,10 @@
+{
+    "name": "Burn",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Lava Spike", "Flame Rift", "Vexing Devil"]
+        }
+    ]
+}

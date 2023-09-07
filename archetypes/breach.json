@@ -1,0 +1,14 @@
+{
+    "name": "Breach",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Underworld Breach", "Lotus Petal", "Brain Freeze"]
+        },
+        {
+            "type": "never",
+            "cards": ["Persist"]
+        }
+    ]
+}

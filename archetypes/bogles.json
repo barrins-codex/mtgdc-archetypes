@@ -1,0 +1,10 @@
+{
+    "name": "Bogles",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Daybreak Coronet"]
+        }
+    ]
+}

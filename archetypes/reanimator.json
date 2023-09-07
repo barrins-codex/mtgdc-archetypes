@@ -1,0 +1,22 @@
+{
+    "name": "Reanimator",
+    "include_color_in_name": false,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Animate Dead", "Archon of Cruelty"]
+        },
+        {
+            "type": "two_or_more",
+            "cards": ["Animate Dead", "Dance of the Dead", "Necromancy"]
+        },
+        {
+            "type": "one_or_more",
+            "cards": ["Faithless Looting", "Flash"]
+        },
+        {
+            "type": "never",
+            "cards": ["Worldgorger Dragon"]
+        }
+    ]
+}

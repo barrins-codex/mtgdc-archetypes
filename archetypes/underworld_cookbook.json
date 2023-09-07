@@ -1,0 +1,14 @@
+{
+    "name": "UnderworldCookbook",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["The Underworld Cookbook", "Asmoranomardicadaistinaculdacar"]
+        },
+        {
+            "type": "one_or_more",
+            "cards": ["Goblin Wielder", "Goblin Engineer", "Experimental Synthetizer"]
+        }
+    ]
+}

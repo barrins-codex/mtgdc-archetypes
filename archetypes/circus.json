@@ -1,0 +1,10 @@
+{
+    "name": "Circus",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Omnath, Locus of Creation", "Noble Hierarch"]
+        }
+    ]
+}

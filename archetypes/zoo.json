@@ -1,0 +1,10 @@
+{
+    "name": "Zoo",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Wild Nacatl", "Nishoba Brawler", "Territorial Kavu"]
+        }
+    ]
+}

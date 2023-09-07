@@ -1,0 +1,10 @@
+{
+    "name": "High Tide",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["High Tide"]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "HateBears",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Cataclysm", "Thalia, Guardian of Thraben"]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "SoulSister",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "two_or_more",
+            "cards": ["Soul Warden", "Soul Attendant", "Essence Warden"]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Prowess",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "two_or_more",
+            "cards": ["Monastery SwiftSpear", "Kessig Flamebreather", "Young Pyromancer"]
+        }
+    ]
+}

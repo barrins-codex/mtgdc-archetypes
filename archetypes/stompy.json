@@ -1,0 +1,14 @@
+{
+    "name": "Stompy",
+    "include_color_in_name": true,
+    "conditions": [
+        {
+            "type": "contains",
+            "cards": ["Elder Gargaroth"]
+        },
+        {
+            "type": "never",
+            "cards": ["Animate Dead"]
+        }
+    ]
+}
