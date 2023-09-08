@@ -8,7 +8,7 @@ The definitions of the archetypes are currently maintained by [Spigushe](https:/
 
 ## Data Structure
 
-All definitions are required to be placed at the root of this repository.
+All definitions are required to be placed in the `arcehtypes` folder.
 
 ## Archetypes
 
