@@ -1,6 +1,6 @@
 {
     "name": "LinearAggro",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "conditions": [
         {
             "type": "two_or_more",

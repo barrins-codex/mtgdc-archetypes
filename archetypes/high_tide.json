@@ -1,10 +1,14 @@
 {
     "name": "High Tide",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "conditions": [
         {
             "type": "contains",
             "cards": ["High Tide"]
+        },
+        {
+            "type": "never",
+            "cards": ["Faerie Mastermind"]
         }
     ]
 }

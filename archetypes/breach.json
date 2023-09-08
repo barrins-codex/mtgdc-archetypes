@@ -1,6 +1,6 @@
 {
     "name": "Breach",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "conditions": [
         {
             "type": "contains",
@@ -8,7 +8,7 @@
         },
         {
             "type": "never",
-            "cards": ["Persist"]
+            "cards": ["Persist", "Animate Dead"]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "name": "GenericControl",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "common_cards": [
         "Archmage's Charm",
         "Counterspell",

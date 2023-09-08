@@ -1,18 +1,14 @@
 {
     "name": "ControlCombo",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "conditions": [
         {
-            "type": "one_or_more",
-            "cards": ["Rest in Peace", "Tainted Pact"]
-        },
-        {
-            "type": "one_or_more",
-            "cards": ["Helm of Obediance", "Jace, Wielder of Mysteries"]
+            "type": "two_or_more",
+            "cards": ["Rest in Peace", "Helm of Obediance", "Tainted Pact", "Jace, Wielder of Mysteries"]
         },
         {
             "type": "contains",
-            "cards": ["Demonic Tutor", "Enlightened Tutor"]
+            "cards": ["Demonic Tutor", "Enlightened Tutor", "Underworld Breach"]
         }
     ]
 }

@@ -1,10 +1,88 @@
 {
     "name": "Prowess",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "conditions": [
         {
             "type": "two_or_more",
-            "cards": ["Monastery SwiftSpear", "Kessig Flamebreather", "Young Pyromancer"]
+            "cards": [
+                "Monastery Swiftspear",
+                "Seeker of the Way",
+                "Dwarven Forge-Chanter",
+                "Goblin Blast-Runner",
+                "Burning Prophet",
+                "Kiln Fiend",
+                "Festival Crasher",
+                "Ghitu Amplifier",
+                "Nivix Cyclops",
+                "Monastery Swiftspear",
+                "Kessig Flamebreather"
+            ]
+        },
+        {
+            "type": "one_or_more",
+            "cards": [
+                "Lava Dart",
+                "Mutagenic Growth",
+                "Reckless Impulse",
+                "Bitter Reunion"
+            ]
+        },
+        {
+            "type": "never",
+            "cards": ["Basilisk Gate"]
+        },
+        {
+            "type" : "never",
+            "cards": ["Tireless Tribe"]
+        },
+        {
+            "type" : "never",
+            "cards": ["Satyr Hoplite"]
+        }
+    ],
+    "variants": [
+        {
+            "name":"Kiln Fiend",
+            "include_color_in_name": false,
+            "conditions": [
+                {
+                    "type": "two_or_more",
+                    "cards": [
+                        "Kiln Fiend",
+                        "Festival Crasher",
+                        "Ghitu Amplifier",
+                        "Nivix Cyclops",
+                        "Monastery Swiftspear",
+                        "Electrostatic Infantry"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Kuldotha Prowess",
+            "include_color_in_name": false,
+            "conditions": [
+                {
+                    "type": "one_or_more",
+                    "cards": [
+                        "Implement of Combustion",
+                        "Experimental Synthesizer",
+                        "Chromatic Star"
+                    ]
+                },
+                {
+                    "type": "contains",
+                    "cards": ["Kuldotha Rebirth"]
+                },
+                {
+                    "type": "contains",
+                    "cards": ["Great Furnace"]
+                },
+                {
+                    "type": "never",
+                    "cards": ["Glint Hawk"]
+                }
+            ]
         }
     ]
 }

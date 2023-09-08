@@ -1,14 +1,62 @@
 {
     "name": "Tempo",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "conditions": [
         {
+            "type": "contains",
+            "cards": ["Dragon's Rage Channeler", "Delver of Secrets"]
+        },
+        {
+            "type" : "two_or_more",
+            "cards": ["Murktide Regent", "Brazen Borrower","Third Path Iconoclast", "Hexdrinker"]
+        },
+        {
+            "type": "contains",
+            "cards": ["Daze", "Force of Will"]
+        },
+        {
             "type": "two_or_more",
-            "cards": ["Daze", "Spell Pierce", "Mental Misstep"]
+            "cards": ["Ponder", "Expressive Iteration", "Brainstorm"]
         },
         {
             "type": "never",
-            "cards": ["Lotus Petal", "Jace, Wielder of Mysteries", "Peacewalker Colossus", "Shallow Grave", "Corpse Dance", "Bring to Light", "Tenacious Underdog", "Otharri, Suns' Glory"]
+            "cards": ["Arclight Phoenix"]
+        },
+        {
+            "type": "never",
+            "cards": ["Stoneforge Mystic"]
+        },
+        {
+            "type": "never",
+            "cards": ["Monastery Mentor"]
+        },
+        {
+            "type": "never",
+            "cards": ["Death's Shadow"]
+        },
+        {
+            "type": "never",
+            "cards": ["Painter's Servant"]
+        },
+        {
+            "type": "never",
+            "cards": ["Doomsday"]
+        },
+        {
+            "type": "never",
+            "cards": ["Green Sun's Zenith"]
+        },
+        {
+            "type": "never",
+            "cards": ["Tarmogoyf"]
+        },
+        {
+            "type": "never",
+            "cards": ["Phyrexian Dreadnought"]
+        },
+        {
+            "type": "never",
+            "cards": ["Balmor, Battlemage Captain"]
         }
     ]
 }
