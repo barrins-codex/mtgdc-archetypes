@@ -8,7 +8,7 @@ The definitions of the archetypes are currently maintained by [Spigushe](https:/
 
 ## Data Structure
 
-All definitions are required to be placed under the `archetypes` folder.
+All definitions are required to be placed at the root of this repository.
 
 ## Archetypes
 
@@ -42,7 +42,7 @@ This work in conjunction with the Cards property to define the conditions for th
 * `one_or_more`: At least two of the cards listed are required.
 * `never`: The card listed must not be present.
 
-If an archetype has multiple conditions, all must be satisfied for the archetype to match successfully. 
+If an archetype has multiple conditions, all must be satisfied for the archetype to match successfully.
 
 To help understanding, here's two examples. This is the current "Ad Nauseam" archetype definition:
 
@@ -80,7 +80,7 @@ This is the current "Underworld Cookbook" archetype definition.
 
 This deck has several possible configurations of creature that can enable recursion for the Cookbook, which are listed in the "one_or_more" condition. Any combination of "Cookbook+Asmo+1xCreature that brings the cookbook back" will be a successful match.
 
-An archetype may also include multiple Variants. Each variant has the same structure as the archetype, and for a variant to match the deck needs to first match the "main" archetype rules, then match the variant rules. This is particularly useful when you have several similar archetypes that use similar "core" but still have enough differences that you want to tag them separetely. 
+An archetype may also include multiple Variants. Each variant has the same structure as the archetype, and for a variant to match the deck needs to first match the "main" archetype rules, then match the variant rules. This is particularly useful when you have several similar archetypes that use similar "core" but still have enough differences that you want to tag them separetely.
 ~~Check the ```archetypes/to_be_defined_later.js``` file for an example of variant usage.~~
 
 ## Fallbacks
