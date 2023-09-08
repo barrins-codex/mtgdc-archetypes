@@ -1,10 +1,22 @@
 {
     "name": "Circus",
-    "include_color_in_name": true,
+    "include_color_in_name": false,
     "conditions": [
         {
             "type": "contains",
             "cards": ["Omnath, Locus of Creation", "Noble Hierarch"]
+        }
+    ],
+    "variants": [
+        {
+            "name": "Aluren",
+            "include_color_in_name": false,
+            "conditions": [
+                {
+                    "type": "contains",
+                    "cards": ["Aluren"]
+                }
+            ]
         }
     ]
 }
